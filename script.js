@@ -12,7 +12,7 @@
         // Heatmap layers also work with a vector tile source.
         map.addSource('earthquakes', {
             'type': 'geojson',
-            'data': 'https://gist.githubusercontent.com/mullin-uconn/7f200a1dbb1ed16c6fc3f2725ce7fc41/raw/2e86db5c2a54087b8903df937876e2d0e43fd272/gistfile1.txt'
+            'data': './data.geojson'
         });
 
         map.addLayer(
