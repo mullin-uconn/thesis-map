@@ -140,3 +140,23 @@
             'waterway-label'
         );
     });
+
+    map.on('click', 'sightings-heat', (e) => {
+        // Copy coordinates array.
+        const coordinates = e.features[0].geometry.coordinates.slice();
+        const media = e.features[0].properties['media-type'];
+        const sighting = e.features[0].properties['sighting-type'];
+
+        
+        // Ensure that if the map is zoomed out such that multiple
+        // copies of the feature are visible, the popup appears
+        // over the copy being pointed to.
+        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+        }
+        
+        new mapboxgl.Popup()
+        .setLngLat(coordinates)
+        .setHTML(`<strong>Media Type</strong>: ${media}<br><strong>Sighting Type</strong>: ${sighting}<br>`)
+        .addTo(map);
+    });
