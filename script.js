@@ -3,23 +3,23 @@
     const map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/mapbox/dark-v10',
-        center: [-120, 50],
-        zoom: 2
+        center: [-72.6, 41.5],
+        zoom: 8
     });
 
     map.on('load', () => {
         // Add a geojson point source.
         // Heatmap layers also work with a vector tile source.
-        map.addSource('earthquakes', {
+        map.addSource('sightings', {
             'type': 'geojson',
             'data': './data.geojson'
         });
 
         map.addLayer(
             {
-                'id': 'earthquakes-heat',
+                'id': 'sightings-heat',
                 'type': 'heatmap',
-                'source': 'earthquakes',
+                'source': 'sightings',
                 'maxzoom': 9,
                 'paint': {
                     // Increase the heatmap weight based on frequency and property magnitude
@@ -90,9 +90,9 @@
 
         map.addLayer(
             {
-                'id': 'earthquakes-point',
+                'id': 'sightings-point',
                 'type': 'circle',
-                'source': 'earthquakes',
+                'source': 'sightings',
                 'minzoom': 7,
                 'paint': {
                     // Size circle radius by earthquake magnitude and zoom level
@@ -139,4 +139,24 @@
             },
             'waterway-label'
         );
+    });
+
+    map.on('click', 'sightings-heat', (e) => {
+        // Copy coordinates array.
+        const coordinates = e.features[0].geometry.coordinates.slice();
+        const media = e.features[0].properties['media-type'];
+        const sighting = e.features[0].properties['sighting-type'];
+
+        
+        // Ensure that if the map is zoomed out such that multiple
+        // copies of the feature are visible, the popup appears
+        // over the copy being pointed to.
+        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+        }
+        
+        new mapboxgl.Popup()
+        .setLngLat(coordinates)
+        .setHTML(`<strong>Media Type</strong>: ${media}<br><strong>Sighting Type</strong>: ${sighting}<br>`)
+        .addTo(map);
     });
