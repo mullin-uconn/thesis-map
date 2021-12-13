@@ -3,23 +3,23 @@
     const map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/mapbox/dark-v10',
-        center: [-120, 50],
-        zoom: 2
+        center: [-72.6, 41.5],
+        zoom: 8
     });
 
     map.on('load', () => {
         // Add a geojson point source.
         // Heatmap layers also work with a vector tile source.
-        map.addSource('earthquakes', {
+        map.addSource('sightings', {
             'type': 'geojson',
             'data': './data.geojson'
         });
 
         map.addLayer(
             {
-                'id': 'earthquakes-heat',
+                'id': 'sightings-heat',
                 'type': 'heatmap',
-                'source': 'earthquakes',
+                'source': 'sightings',
                 'maxzoom': 9,
                 'paint': {
                     // Increase the heatmap weight based on frequency and property magnitude
@@ -90,9 +90,9 @@
 
         map.addLayer(
             {
-                'id': 'earthquakes-point',
+                'id': 'sightings-point',
                 'type': 'circle',
-                'source': 'earthquakes',
+                'source': 'sightings',
                 'minzoom': 7,
                 'paint': {
                     // Size circle radius by earthquake magnitude and zoom level

@@ -3,7 +3,16 @@
     "features": [
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "marker-color": "#7E7E7E",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "media-type": "image",
+                "sighting-type": "light",
+                "duration": "004500",
+                "occurence": 549078300,
+                "reported": 549078300
+            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
@@ -14,7 +23,16 @@
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "marker-color": "#7E7E7E",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "media-type": "image",
+                "sighting-type": "disc",
+                "duration": "000005",
+                "occurence": 1532782800,
+                "reported": 1626257280
+            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
@@ -25,7 +43,16 @@
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "marker-color": "#7E7E7E",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "media-type": "video",
+                "sighting-type": "light",
+                "duration": "000010",
+                "occurence": 1621390920,
+                "reported": 1625513100
+            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
@@ -36,7 +63,16 @@
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "marker-color": "#7E7E7E",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "media-type": "video",
+                "sighting-type": "light",
+                "duration": "000005",
+                "occurence": 1621999380,
+                "reported": 1622580540
+            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
@@ -47,7 +83,16 @@
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "marker-color": "#7E7E7E",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "media-type": "video",
+                "sighting-type": "light",
+                "duration": "000100",
+                "occurence": 1619206320,
+                "reported": 1621021980
+            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
@@ -58,56 +103,101 @@
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "marker-color": "#7E7E7E",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "media-type": "video",
+                "sighting-type": "light",
+                "duration": "000035",
+                "occurence": 1636335900,
+                "reported": 1637725620
+            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.68280029296875,
-                    41.777456667491066
+                    -73.195556,
+                    41.186389
                 ]
             }
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "marker-color": "#7E7E7E",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "media-type": "video",
+                "sighting-type": "light",
+                "duration": "000200",
+                "occurence": 1628904600,
+                "reported": 1628989503
+            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.66666412353516,
-                    41.764141783336456
+                    -72.674167,
+                    41.7625
                 ]
             }
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "marker-color": "#7E7E7E",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "media-type": "video",
+                "sighting-type": "light",
+                "duration": "000400",
+                "occurence": 1625448180,
+                "reported": 1625501940
+            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.7023696899414,
-                    41.75261705678322
+                    -73.391944,
+                    41.468611
                 ]
             }
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "marker-color": "#7E7E7E",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "media-type": "video",
+                "sighting-type": "light",
+                "duration": "000052",
+                "occurence": 1610499240,
+                "reported": 1610559960
+            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.6690673828125,
-                    41.75236092824208
+                    -72.923611,
+                    41.31
                 ]
             }
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "marker-color": "#7E7E7E",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "media-type": "image",
+                "sighting-type": "disc",
+                "duration": "000002",
+                "occurence": 1597284000,
+                "reported": 1597326720
+            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.68692016601562,
-                    41.72648668138102
+                    -72.940556,
+                    41.681111
                 ]
             }
         }
