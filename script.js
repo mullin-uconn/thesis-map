@@ -1,5 +1,5 @@
 
-	mapboxgl.accessToken = 'pk.eyJ1IjoiYnBkMDEwMDEiLCJhIjoiY2pyd2YxM2g2MGMzeDQ0bzR4dXptN21tdyJ9.fyLty-7Dtf7q0oMJiHvAjg';
+	mapboxgl.accessToken = 'pk.eyJ1IjoibWF0dGhld211bGxpbiIsImEiOiJja3Vjb3JxYzAxMm1zMnBtbmlkMTJ5ZzR0In0._5SuC1BJtlI8hNaX-9NrhQ';
     const map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/matthewmullin/ckxhssqdy07gy14qv0r7iytoo',
