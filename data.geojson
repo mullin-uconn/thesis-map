@@ -1,205 +1,225 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-        {
-            "type": "Feature",
-            "properties": {
-                "marker-color": "#7E7E7E",
-                "marker-size": "medium",
-                "marker-symbol": "",
-                "media-type": "image",
-                "sighting-type": "light",
-                "duration": "004500",
-                "occurence": 549078300,
-                "reported": 549078300
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.283333,
-                    41.4
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "marker-color": "#7E7E7E",
-                "marker-size": "medium",
-                "marker-symbol": "",
-                "media-type": "image",
-                "sighting-type": "disc",
-                "duration": "000005",
-                "occurence": 1532782800,
-                "reported": 1626257280
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.059722,
-                    41.224167
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "marker-color": "#7E7E7E",
-                "marker-size": "medium",
-                "marker-symbol": "",
-                "media-type": "video",
-                "sighting-type": "light",
-                "duration": "000010",
-                "occurence": 1621390920,
-                "reported": 1625513100
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.0875,
-                    41.550278
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "marker-color": "#7E7E7E",
-                "marker-size": "medium",
-                "marker-symbol": "",
-                "media-type": "video",
-                "sighting-type": "light",
-                "duration": "000005",
-                "occurence": 1621999380,
-                "reported": 1622580540
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.234167,
-                    41.473611
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "marker-color": "#7E7E7E",
-                "marker-size": "medium",
-                "marker-symbol": "",
-                "media-type": "video",
-                "sighting-type": "light",
-                "duration": "000100",
-                "occurence": 1619206320,
-                "reported": 1621021980
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.615278,
-                    41.761389
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "marker-color": "#7E7E7E",
-                "marker-size": "medium",
-                "marker-symbol": "",
-                "media-type": "video",
-                "sighting-type": "light",
-                "duration": "000035",
-                "occurence": 1636335900,
-                "reported": 1637725620
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.195556,
-                    41.186389
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "marker-color": "#7E7E7E",
-                "marker-size": "medium",
-                "marker-symbol": "",
-                "media-type": "video",
-                "sighting-type": "light",
-                "duration": "000200",
-                "occurence": 1628904600,
-                "reported": 1628989503
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.674167,
-                    41.7625
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "marker-color": "#7E7E7E",
-                "marker-size": "medium",
-                "marker-symbol": "",
-                "media-type": "video",
-                "sighting-type": "light",
-                "duration": "000400",
-                "occurence": 1625448180,
-                "reported": 1625501940
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.391944,
-                    41.468611
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "marker-color": "#7E7E7E",
-                "marker-size": "medium",
-                "marker-symbol": "",
-                "media-type": "video",
-                "sighting-type": "light",
-                "duration": "000052",
-                "occurence": 1610499240,
-                "reported": 1610559960
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.923611,
-                    41.31
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "marker-color": "#7E7E7E",
-                "marker-size": "medium",
-                "marker-symbol": "",
-                "media-type": "image",
-                "sighting-type": "disc",
-                "duration": "000002",
-                "occurence": 1597284000,
-                "reported": 1597326720
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.940556,
-                    41.681111
-                ]
-            }
-        }
-    ]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "media-type": "image",
+        "image": "https://newengland.com/wp-content/uploads/UFOs_Etting.jpg",
+        "sighting-type": "light",
+        "duration": "004500",
+        "occurence": 549078300,
+        "reported": 549078300,
+        "description": "On May 26, 1987, commercial airline pilot Randy Etting took a nighttime walk near his home in Newtown, Connecticut. He often studied the skies when he walked, trying to identify passing planes. At around 9:45, he observed some orange and red lights approaching from the west. He got his binoculars and called his neighbors to come outside. Etting said that as the UFO passed over Interstate 84, cars pulled over to watch. And indeed, between 9:30 and 10:15 P.M., more than 200 people phoned police to report a UFO. The object displayed a semicircular pattern of very bright multicolored lights. Several drivers reported that their cars had lost power as the lights passed by. About 15 minutes later, calls started coming in from New Milford, about 14 miles north, alerting authorities that the lights — reported by many to be connected to an object “larger than a football field” — were hovering there. The lights eventually vanished, but the mystery remains. - New England Today"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.283333,
+          41.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "media-type": "image",
+        "image": "https://www.mufoncms.com/files_jeud8334j/116873_submitter_file1__211924507102193583860061636812543768706987266n.jpg",
+        "sighting-type": "disc",
+        "duration": "000005",
+        "occurence": 1532782800,
+        "reported": 1626257280,
+        "description": "Came out from cloud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.059722,
+          41.224167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "media-type": "video",
+        "image": "https://ufostalker.com/sighting/116711",
+        "sighting-type": "light",
+        "duration": "000010",
+        "occurence": 1621390920,
+        "reported": 1625513100,
+        "description": "There were 5 lights. Some randomly blinked they were moving and not symmetrically even with each other but stayed all together. First they ascended then they all zoomed off. I saw many different sightings overflowing a two week span. President Biden was present on May 19th at the coast guard academy so I'm sure there were a lot of military security everywhere. My phone glitched on me constantly for the time frame that I witnessed a lot of activity in the sky and I have other questionable videos also when I sent the video to some other people you couldn't see the lights but on my phone you can. You could see the lights on some peoples phone but not on others. Also sometimes when I watch it the lights are much dimmer or the video is in fast motion."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0875,
+          41.550278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "media-type": "video",
+        "video": "On Matthew's computer",
+        "sighting-type": "light",
+        "duration": "000005",
+        "occurence": 1621999380,
+        "reported": 1622580540,
+        "description": "I did not see this anomaly in person. I was inside my home when our Ring system sounded. A few minutes later, I decided to look at the history on our Ring to see what it had detected, which you can see in the video I am attaching. It appears to be lights in a circular or oval shape and looks transparent. The top row of lights are white; the lower rows are bluish with one or two white lights in the lowest row. It looks almost like a projection. You can also see a reflection on the paved driveway below the image. The object was moving quickly and headed directly toward our garage then appears to twist and rise when it gets to the garage as if it's going to go over it. Other than crickets, I hear no other sound. It is not definitive to me whether it came through the wooded buffer between us and our neighbor, or down our driveway. It does look more like it came from the wooded area (an approximately 20-25' strip buffer of mature trees.) The following morning I looked around the yard and found nothing odd."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.234167,
+          41.473611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "media-type": "video",
+        "video": "On Matthew's computer",
+        "sighting-type": "light",
+        "duration": "000100",
+        "occurence": 1619206320,
+        "reported": 1621021980,
+        "description": "I was at work and saw an erratic light flashing in the sky so I grabbed my phone and ran outside and filmed the object until it was gone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.615278,
+          41.761389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "media-type": "video",
+        "video": "On Matthew's computer",
+        "sighting-type": "light",
+        "duration": "000035",
+        "occurence": 1636335900,
+        "reported": 1637725620,
+        "description": "On November 7, 2021 at around 8:45 pm, I was over my uncle's house for dinner with my girlfriend and my family and as we were leaving when I was by my car my girlfriend pointed out that there was something in the sky. As I looked up, I saw two glowing lights that were moving from left to right or from west to east. The two lights seem to be flying in unison with one another certain distance apart. As soon as I saw them, I instantly grabbed my phone out of my pocket and I started recording the two lights. The event lasted for around 30-35 seconds in total until they started moving in a different direction gradually until I was not able to see them. I do not know if they disappeared on their own or if they went behind the clouds since it was a little bit cloudy that night. The lights to not make any sort of sound and they were no cars around may be a few here and there but the street was fairly quiet. My girlfriend and family also saw this occurrence as well! some people have said that it might have been planes but there were no blinking lights coming from those two lights. Other people say that it might have been drones but drones don't usually fly that high up especially in unison like that."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.195556,
+          41.186389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "media-type": "video",
+        "video": "On Matthew's computer",
+        "sighting-type": "light",
+        "duration": "000200",
+        "occurence": 1628904600,
+        "reported": 1628989503,
+        "description": "These objects are not fireworks it looks like they were shooting at one another like they were in a big battle."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.674167,
+          41.7625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "media-type": "video",
+        "video": "On Matthew's computer",
+        "sighting-type": "light",
+        "duration": "000400",
+        "occurence": 1625448180,
+        "reported": 1625501940,
+        "description": "This went on for approximately 4-5 minutes. It starts going straight up but changes direction occasionally, ultimately heading up and to the left. The orange glow sometimes is more intense almost red and changes size multiple times. I tried to get a better view but still appears as a silent, glowing ball-shape. Disappears multiple times and looks gray at times, finally at the end it disappears and you can see a speck to the left that looks like a silver pop of light and it's gone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.391944,
+          41.468611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "media-type": "video",
+        "video": "On Matthew's computer",
+        "sighting-type": "light",
+        "duration": "000052",
+        "occurence": 1610499240,
+        "reported": 1610559960,
+        "description": "I was in my room reading when I started to feel like I was being watched. I looked out my window to see what I thought was a plane at first, but it's lights weren't blinking. I thought why aren't it's lights blinking? Right after I thought that, it's lights began to blink. I thought this was strange so I attempted a video but my flash was on so I quickly stopped and turned out my room lights. When I went back to my window I saw that another craft that looked the same was following the first one (both the same distance to me). The lights on both craft were blinking at the exact same time which I've never seen any plane do. I started to record, as I noticed they were changing to an upward direction and getting dangerously close to each other. They flew upwards right next to each other for a few seconds. I thought I was about to witness them crash and I was frightened. I thought for sure my hands were still the entire time but looking back I moved at a key time where the bottom craft took a dramatic change in direction. When I looked down to readjust my camera I noticed it quickly moved far from the first craft. From there, they glided further and further away from each other until I could not see them anymore. I looked on a plane radar but there were no planes above me at that time. I've never seen anything like it, and I'm not sure what they were. Attached is a video and picture - for the picture it's a screenshot of the part where the bottom craft angled itself and took a dramatic change in direction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.923611,
+          41.31
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "media-type": "image",
+        "image": "On Matthew's computer",
+        "sighting-type": "disc",
+        "duration": "000002",
+        "occurence": 1597284000,
+        "reported": 1597326720,
+        "description": "Just taking pictures of the sky and saw this on the picture but I didn't see it in the sky!"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.940556,
+          41.681111
+        ]
+      }
+    }
+  ]
 }
