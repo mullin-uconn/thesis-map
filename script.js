@@ -172,7 +172,7 @@
         }
 
 
-        html += `<strong>Media Type</strong>: ${media}<br><strong>Sighting Type</strong>: ${sighting}<br>`;
+        html += `<strong>Media Type</strong>: ${media}<br><strong>Sighting Type</strong>: ${sighting}<br><strong>Description</strong>: ${description}<br>`;
         
         new mapboxgl.Popup()
         .setLngLat(coordinates)
