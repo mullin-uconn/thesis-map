@@ -146,6 +146,8 @@
         const coordinates = e.features[0].geometry.coordinates.slice();
         const media = e.features[0].properties['media-type'];
         const sighting = e.features[0].properties['sighting-type'];
+        const image = e.features[0].properties['image'];
+        const video = e.features[0].properties['video'];
 
         
         // Ensure that if the map is zoomed out such that multiple
@@ -154,9 +156,25 @@
         while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
             coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
         }
+
+        let html = '';
+
+        if(image){
+            html += `<img src="${image}" style="max-width: 100%">`
+        }
+
+        if(video){
+            html += `
+            <video controls autoplay loop style="max-width:100%;max-height:400px">
+                <source src="${video}">
+            </video>`;
+        }
+
+
+        html += `<strong>Media Type</strong>: ${media}<br><strong>Sighting Type</strong>: ${sighting}<br>`;
         
         new mapboxgl.Popup()
         .setLngLat(coordinates)
-        .setHTML(`<strong>Media Type</strong>: ${media}<br><strong>Sighting Type</strong>: ${sighting}<br>`)
+        .setHTML(html)
         .addTo(map);
     });
