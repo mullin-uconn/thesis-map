@@ -148,6 +148,7 @@
         const sighting = e.features[0].properties['sighting-type'];
         const image = e.features[0].properties['image'];
         const video = e.features[0].properties['video'];
+	const description = e.features[0].properties['description'];
 
         
         // Ensure that if the map is zoomed out such that multiple
