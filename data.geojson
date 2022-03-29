@@ -249,6 +249,28 @@
         "marker-color": "#7E7E7E",
         "marker-size": "medium",
         "marker-symbol": "",
+        "media-type": "video",
+        "video": "media/2019-june-28-21-58-pm.mov",
+        "sighting-type": "disc",
+        "duration": "000007",
+        "occurence": 1561773480,
+        "reported": 1561820460,
+        "description": "I was doing Uber Eats and noticed this in the sky."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.166667,
+          41.883333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "media-type": "image",
         "image": "media/2020-august-12-22-00-pm.png",
         "sighting-type": "disc",
