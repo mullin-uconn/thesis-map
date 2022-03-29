@@ -272,6 +272,28 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "media-type": "image",
+        "image": "media/2018-august-02-11-30-am.jpeg",
+        "sighting-type": "disc",
+        "duration": "001000",
+        "occurence": 1533223800,
+        "reported": 1533233580,
+        "description": "Driving I95 S near Branford. Saw cars pulled over with others staring up. Looked up, pulled over to see, and saw large distant (like over New Haven) cigar shape white hovering object. Next to it was larger slowly spinning hovering oddly shaped rectangle black object. Watched for nearing 10 min. still hovering when I left for an appt. I took photo. I've never seen anything like either object before. Texted photo to partner. He's a retired aerospace engineer and was also baffled."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.799722,
+          41.277778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "media-type": "image",
         "image": "media/2020-august-12-22-00-pm.png",
         "sighting-type": "disc",
         "duration": "000002",
