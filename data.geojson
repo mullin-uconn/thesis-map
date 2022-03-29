@@ -205,6 +205,28 @@
         "marker-color": "#7E7E7E",
         "marker-size": "medium",
         "marker-symbol": "",
+        "media-type": "video",
+        "video": "media/",
+        "sighting-type": "light",
+        "duration": "000030",
+        "occurence": 1638573060,
+        "reported": 1641759720,
+        "description": "N/A"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.3825,
+          41.293889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "media-type": "image",
         "image": "media/2020-august-12-22-00-pm.png",
         "sighting-type": "disc",
