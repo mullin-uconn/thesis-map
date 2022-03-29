@@ -227,6 +227,28 @@
         "marker-color": "#7E7E7E",
         "marker-size": "medium",
         "marker-symbol": "",
+        "media-type": "video",
+        "video": "media/2020-september-19-19-30-pm.mov",
+        "sighting-type": "light",
+        "duration": "000030",
+        "occurence": 1600558200,
+        "reported": 1600558200,
+        "description": "Around 8 or 9 orbs travelled in the same direction for a few minutes before disappearing in Old Saybrook, CT about 2-3 miles away from Saybrook Point around 7:30 pm on September 19, 2020. They were not airplanes. I don't know what they were so they are technically UFOs."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.365717,
+          41.283220
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "media-type": "image",
         "image": "media/2020-august-12-22-00-pm.png",
         "sighting-type": "disc",
