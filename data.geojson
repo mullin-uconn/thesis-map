@@ -294,6 +294,28 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "media-type": "image",
+        "image": "media/2020-july-23-19-45-pm.jpeg",
+        "sighting-type": "disc",
+        "duration": "000030",
+        "occurence": 1595547900,
+        "reported": 1595547900,
+        "description": "My friend and I spotted the fleet of UFOs while they were mountain biking in the Cockaponset State Forest. As we were heading back to our cars, we saw three oblong-shaped objects hovering in the sky and noticed that the objects had lights on their bodies."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.4825,
+          41.402222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "media-type": "image",
         "image": "media/2020-august-12-22-00-pm.png",
         "sighting-type": "disc",
         "duration": "000002",
