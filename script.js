@@ -20,7 +20,7 @@
                 'id': 'sightings-heat',
                 'type': 'heatmap',
                 'source': 'sightings',
-                'maxzoom': 9,
+                'maxzoom': 12,
                 'paint': {
                     // Increase the heatmap weight based on frequency and property magnitude
                     'heatmap-weight': [
